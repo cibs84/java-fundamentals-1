@@ -31,5 +31,7 @@ public class PollCreator {
 		System.out.println("Windows: " + percentWin + "%");
 		System.out.println("MacOS: " + percentMac + "%");
 		System.out.println("Linux: " + percentLinux + "%");
+		
+		input.close();
 	}
 }
